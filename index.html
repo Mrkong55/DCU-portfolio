@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Add your meta description" />
+    <!-- meta tag below is used for Internet Explorer and mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--This means that the browser will (probably) render the width of the page at the width of its own screen. //-->
+    <title>My Portfolio</title>
+    <!-- add your stylesheet and any other styling code, e.g. google fonts  a good link is https://fonts.google.com/-->
+	<link rel="stylesheet" href="css/style.css" /> 
+</head>
+<!-- all the classes below will require some CSS styles to be included in your layout.css file, if you do not
+include a style for these classes you should remove the class from your html file //-->
+<body>
+
+<!-- Website portfolio made by Cuong nguyen student Number 28833 -->
+
+    <main class= "main-style">
+	 <header class="page-header">  <!-- What does the header do? Replace this comment with a brief explanation.  see nav above-->
+            <div class="header-content">  <!-- What is a div?  A <div> is an HTML element used to create a container or section in a webpage. 
+                It groups other elements together, allowing you to apply CSS styles or JavaScript actions to that section. 
+                It doesn't add any visual structure by itself; it's just a block-level element used for layout and organization.  .-->
+                <a href="#home" id="Portfolio_title">Portfolio</a>
+                <p>Cuong nguyen</p>
+            </div>
+<!--          Nav bar           -->    
+    </header>
+        <nav class="page-nav">
+            <ul>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#work">Work Experience</a></li>
+                <li><a href="#gallery">Image Gallery</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+<!--           Home Page            -->
+     <section class="containers" id="home">
+        <div class="box" id="box1">
+            <div class="homeText">
+                <h1 id="welcomeHome">Welcome</h1>
+                <h3 id="HomeH3">I’m a first-year Computer Science student at <span id="highlight">DCU</span>. This portfolio showcases skills, work experience and my interests. With a background in customer service, 
+                    I bring strong communication and teamwork skills.</h3>
+                <p id="Home_p">Take a look and connect with me!</p>
+                <a href="#contact"><button class="btn">Contact Me</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Note here the use of an ID.  the link above actually links to this.  It's a good example of where an ID can be used.  Note also that the section has a class attribute.  use this for styling. -->
+    
+    <!-- About me -->
+    <section class="workContainer">
+        <div class="work_experience_text_container wbox" id="abou_me_img">
+                <img src="images/ying-ge--Yo1cWJVKFY-unsplash.jpg" alt="image of a girl studying showing interest in learning" width="700px" style="border-radius: 10px;"> 
+        </div>
+        <div class="work_experience_text_container_2 wbox">
+            <h1 id="aboutMeH1"> <span id="aboutMeSpan">About Me </span></h1>
+            <p id="aboutMep"> I'm a first-year Computer Science student at Dublin City University, driven by a passion for technology, problem-solving, and continuous growth. I’m building a strong foundation in programming, software development, and data analysis, with a keen inte
+                rest in artificial intelligence, web development, and cybersecurity.
+                Prior experience in customer service and retail taught me valuable skills in communication, teamwork, and time management. These experiences have helped me work well under pressure and in team settings, making me adaptable and collaborative.
+                Outside of academics, I enjoy learning new languages, exploring coffee culture, and staying updated on tech trends. Through this portfolio,
+                 I aim to showcase my technical skills, dedication, and 
+                 commitment to personal growth.</p>
+                 <div class="MoreBtn"> 
+                    <a href="https://ie.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank" title="leads to my linkedin Profile"><button class="btn">Linkedin</button></a>
+                    <a href="https://github.com/" target="_blank" title="My GitHub"><button class="btn" id="GitHuh_btn">GitHub</button></a>
+                 </div> 
+        </div>
+    </section>
+
+    <!--           work  Experience             -->
+        <section id="work" class="work-experience">
+            <div class="" id="workExp_container">
+                <div class="content" id="workExperience">
+                    <img src="images/coffeeShop.webp" alt="Retail Work Experience Image" class="work-image" style="border: 5px solid;">
+                    <div class="work-text">
+                        <h2 id="workExp_Head"><span id="aboutMeSpan">Work Experience</span></h2>
+                        <h3 id="workExp_h3">Coffee Shop Barista</h3>
+                        <p id="workExp_p">In my role as a barista at a coffee shop, I gained comprehensive experience in providing excellent customer service, preparing high-quality beverages, and ensuring a welcoming environment for customers. I developed a deep understanding of coffee brewing techniques, learned to operate various espresso machines, and consistently met high standards in drink presentation.</p>
+                        <p id="workExp_p"> <span id="workExp_p_span">Throughout this role, I honed my skills in:</span></p>
+                        <ul id="workExp_ul">
+                            <li><strong>Customer Service:</strong> Engaging with customers, handling orders accurately, and creating a positive atmosphere.</li>
+                            <li><strong>Time Management:</strong> Preparing drinks efficiently, especially during peak hours, while maintaining quality.</li>
+                            <li><strong>Inventory Management:</strong> Monitoring stock levels, restocking items, and assisting in ordering supplies to prevent shortages.</li>
+                            <li><strong>Sales:</strong> Upselling items, promoting specials, and contributing to sales targets by encouraging customer loyalty.</li>
+                            <li><strong>Teamwork:</strong> Collaborating with colleagues to manage workflow and ensure seamless service during high-demand periods.</li>
+                        </ul>
+                        <p>This experience equipped me with strong communication, adaptability, and multitasking skills that are essential for a fast-paced work environment. These competencies have prepared me well for future roles and challenges.</p>
+                        <a href="https://www.starbucks.ie/" target="_blank" title="starbucks"><button class="btn" id="workEpxBtn">Learn More</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- image gallery-->
+                <section id="gallery" class="image-gallery">
+                    <div class="">
+                        <h2 id="Img_gal_H2"><span id="aboutMeSpan">Image Gallery</span></h2>
+                        <h3 id="workExp_h3" class="ImgGalH3"> Small details of me</h3>
+                        <div class="gallery-content">
+                            <figure class="gallery-item">
+                                <img src="images/aman-shrestha-pWCkO6JqRDA-unsplash.jpg" alt="image of my interest in gaming">
+                                <p>I’m passionate about games because they combine creativity, 
+                                    problem-solving, and technology. This interest naturally led me 
+                                    to computer
+                                    science, where I can explore programming, AI, and graphics—all essential for game development. Through coding, I’m able to bring interactive experiences to life, crafting both the technical and creative elements that make games engaging. My goal is to develop skills that allow me to build innovative and meaningful 
+                                    games, turning ideas into experiences others can enjoy.</p>
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="images/niclas-illg-FJ5e_2f96h4-unsplash.jpg" alt="Image of coding showing my interest in coding">
+                                <p>I’m passionate about coding because it empowers me to create and solve problems. 
+                                    Coding is essential in game development, aligning perfectly with my computer science studies. Through coding, I explore logic, algorithms, and efficient solutions, all key to building immersive, interactive experiences. My goal is to master 
+                                    these skills, turning ideas into real applications that others can enjoy.</p>
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="images/liam-shaw-ZGxjCKNEVtY-unsplash.jpg" alt="Image of a camera showing my interst in photography">
+                                <p>I’m passionate about photography because it captures 
+                                    unique moments and perspectives in a single frame. This ties into my interest in computer science, where I can explore image processing, digital editing, and coding. Combining photography with technical skills lets me experiment with visuals in new ways, using coding for effects, editing algorithms, and even image recognition. This blend of creativity and technology allows me to deepen my understanding of both artistic composition and the digital 
+                                    processes behind photography, making it a perfect intersection of my interests.</p>
+                            </figure>
+                        </div>
+                    </div>
+                </section>
+                
+      <!--           Cotact Form             -->          
+        <section id="contact" class="contact-me container">
+            <div class="-content" id="contact_end">
+                <h2>Contact Me</h2>
+                <div class="content">
+                    <form action="https://formspree.io/[your email address goes here]" method="post">
+	                    <!-- Style this nicely.  Don't worry if the form doesn't work, marks here for how well you style it. -->
+                        <p>
+                            <label for="contact-name">Your Name</label>
+                            <input id="contact-name" type="text" name="contact-name" title="enter name" />
+                        </p>
+                        <p>
+                            <label for="contact-email">Your email address</label>
+                            <input id="contact-email" type="email" name="contact-email" title="enter email address"/> </p>
+                        <p>
+                            <label for="contact-phone">Your phone number</label>
+                            <input id="contact-phone" type="tel" name="contact-phone" title="enter phone number"/> </p>
+                        <p>
+                            <label for="contact-message">Your message</label>
+                            <textarea id="contact-message" name="contact-message" rows="5" title="add any type of message"> </textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="send my message" /> </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    <!--          Footer           -->
+        <footer id = "footer-layout">
+              <p> &copy; <a href="dcu.ie/" id="footerDate">DCU 2024-2025</a>
+				<span class="footer-separator">&middot;</span>
+				<span class="footer-text">Cuong Nguyen</span> 
+				<span class="footer-separator">&middot;</span> 
+				<span class="footer-text">This is student coursework</span> 
+				<span class="footer-separator">&middot;</span>
+				<span class="footer-text">Lecturer<a href="http://www.computing.dcu.ie/~jkernan">Jane Kernan</a></span> 
+				<span class="footer-separator">&middot;</span> 
+				<span class="footer-text"><a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a><br/></span> 
+			</p>
+        <!-- Note that the link to the validator above will only produce results when your page is uploaded to the server, and you click on the link from the browser.-->
+         
+        </footer>
+    </main>
+</body>
+
+</html>
